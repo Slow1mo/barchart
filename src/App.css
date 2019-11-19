@@ -1,0 +1,44 @@
+.main {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  background-color: white;
+  background-size: 64px 128px;
+}
+
+
+.bar {
+    display: block;
+    fill:orange;
+      }
+  
+  .bar:hover {
+        fill: orangered;
+      }
+  
+  svg {
+    background-color: white;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 20px;
+  }
+  
+  .chart-title {
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .tooltip {
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+  }

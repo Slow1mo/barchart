@@ -1,0 +1,33 @@
+
+.bar {
+  display: block;
+  fill:orange;
+    }
+
+.bar:hover {
+      fill: orangered;
+    }
+
+svg {
+  background-color: white;
+  display: block;
+  margin: auto;
+  box-shadow: 5px 5px 20px;
+}
+
+.chart-title {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Roboto';
+}
+
+.tooltip {
+  position: absolute;
+  width: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: 2px solid black;
+}
